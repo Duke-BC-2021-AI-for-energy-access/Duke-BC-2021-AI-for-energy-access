@@ -30,8 +30,13 @@ In order to determine the effectiveness of our technique, we tested our techniqu
 
 Here includes code developed for data pre-processing, plotting bounding boxes on images, and more.
 
+## [Training YOLOv3](https://github.com/Duke-BC-2021-AI-for-energy-access/repro_bass)
 
-
+This repository includes scripts for training the object detection model on various platforms. There are three branches:
+- **main**, for training on *pizer*
+- **gaia** and **gaiav2**, for training on *gaia*
+- **dcc**, for training on the Duke Computing Cluster, with Python scripts that can be used to generate SLURM batch job scripts
+Note that cloning the above `repro_bass` repository does not work out of the box. One would need to download various files (mostly `.pt` and `.data` files in the `data` folder) into the `repro_bass` folder as well for the program to run correctly.
 
 <!--
 **Duke-BC-2021-AI-for-energy-access/Duke-BC-2021-AI-for-energy-access** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
